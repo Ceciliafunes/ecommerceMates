@@ -1,0 +1,51 @@
+
+.barranavegacion {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    top: 0;
+}
+
+.nav-item {
+    color: yellow;
+    text-align: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.7375rem;
+    padding: 0.1875rem;
+    transition: 0.5s;
+    
+}
+
+.nav-item:hover {
+    color: white;
+}
+
+.cartCarrito {
+    display: flex;
+    padding: .625rem .625rem .625rem .625rem;
+}
+.cartCarrito button {
+    border-color: yellow;
+}
+
+.cartCarrito .btn:hover {
+    background-color: rgba(255, 255, 255, 0.495);
+    border-color: yellow;
+}
+
+.numeroCarrito {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: end;
+    color: yellow;
+}

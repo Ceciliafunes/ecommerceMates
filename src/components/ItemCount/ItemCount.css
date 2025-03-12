@@ -1,0 +1,26 @@
+.controles-contador{
+    width: 100%;
+    min-width: 20vh;
+    display: flex;
+    row-gap: .3125rem;
+    column-gap: .825rem;
+    justify-content: center;
+    align-items: center;
+}
+.controles-contador button{
+    background-color: rgba(255, 255, 0, 0.667);
+    border-radius: .3125rem;
+    margin: .6125rem 1.25rem;
+    padding: .25rem 1.125rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.controles-contador button:hover{
+    background-color: black;
+    color: white;
+}
+.controles-contador p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+}

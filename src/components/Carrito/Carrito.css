@@ -1,0 +1,76 @@
+.cart {
+    text-align: center;
+    padding: 0 3.125rem ;
+}
+.tituloCarrito{
+    padding: .625rem ;
+}
+
+.card-cart {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: "50px 0";
+    background-color: rgba(228, 228, 133, 0.838);
+}
+.card-cart img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+}
+.delete-cart{
+    display: flex;
+    background-color: rgb(67, 67, 67);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 40px 0;
+}
+.continue-cart{
+    background-color: rgb(67, 67, 67);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+}
+.buttonDelete:hover{
+    background-color: rgb(67, 67, 67);
+}
+.delete-cart{
+    text-align: center;
+    justify-content: space-around;
+    align-items: end;
+}
+.delete-cart:hover{
+    background-color: transparent;
+    color: black;
+}
+.continue-cart{
+    padding: .625rem .625rem .625rem .625rem ;
+    text-decoration: none;
+}
+.continue-cart:hover{
+    background-color: transparent;
+    color: black;
+}
+.totales{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart-vacio{
+    text-align: center;
+    padding: 1.25rem;
+
+}
+.volverListado{
+    text-decoration: none;
+    padding: .625rem;
+    color: yellow;
+    background-color: black;
+    font-size: 1.5rem;
+}

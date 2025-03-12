@@ -1,0 +1,64 @@
+.item-list-container {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.item-list-container .bienvenida {
+    font-size: 3rem;
+    font-weight: bold;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke: .125rem black;
+}
+.itemlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    row-gap: 1.25rem;
+    column-gap: 1.25rem;
+}
+.card {
+    width: 18.75rem;
+    padding: .3125rem;
+    padding-bottom: 1.25rem;
+    border-color: rgb(243, 235, 6);
+    box-shadow: .3125rem .3125rem .3125rem rgba(255, 255, 0, 0.831);
+}
+.card-title {
+    padding: .625rem .625rem .625rem .625rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: inherit;
+}
+.precioCard {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.vermas {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: .3125rem;
+    border: .125rem solid rgb(236, 232, 15);
+    color: black;
+    background-color: rgba(255, 255, 8, 0.927);
+    border-radius: .3125rem;
+}
+.vermas:hover {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.imagen-itemlist {
+    width: 12.5rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.imagen-itemlist img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: .3125rem;
+}
