@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <CartProvider>
         <NavBar />
         <Routes>
@@ -19,7 +19,8 @@ function App() {
           <Route path="/detalle/:idProducto" element={<ItemDetailContainer />} />
           <Route path="/carrito" element={<Carrito />} />
           <Route path="/checkout" element={<Checkout />}/>
-        </Routes> 
+        </Routes>
+        <ToastContainer/>
       </CartProvider>
     </BrowserRouter>
   );
