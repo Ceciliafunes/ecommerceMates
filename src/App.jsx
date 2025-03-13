@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
       <CartProvider>
         <NavBar />
         <Routes>
